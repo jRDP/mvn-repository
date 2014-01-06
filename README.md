@@ -8,16 +8,13 @@ Usage
 -----
 
 `````
-<!-- maven repository hosted on github -->
-    <repositories>
-        <repository>
-            <id>com.github.jrdp.mvn-repository</id>
-            <url>https://raw.github.com/jRDP/mvn-repository/master</url>
-            <!-- use snapshot version -->
-            <snapshots>
-                <enabled>true</enabled>
-                <updatePolicy>always</updatePolicy>
-            </snapshots>
-        </repository>
-    </repositories>
+<repository>
+    <id>com.github.jrdp.mvn-repository</id>
+    <url>https://raw.github.com/jRDP/mvn-repository/master</url>
+    <!-- use snapshot version -->
+    <snapshots>
+        <enabled>true</enabled>
+        <updatePolicy>always</updatePolicy>
+    </snapshots>
+</repository>
 ````
